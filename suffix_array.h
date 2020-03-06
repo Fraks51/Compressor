@@ -118,6 +118,25 @@ public:
 		return lcp;
 	}
 
-
+	std::pair<int, int> get_max_lcp(int v, int r) {//first - number, second - lcp, r - radius
+		std::pair<int, int> max_lcp = { -1, -1 };
+		for (int i = num_arr[v] - 1, lcp_now = INT_MAX; i >= 0; i++) {
+			lcp_now = std::min(lcp_now, lcp[i]);
+			if (suf_arr[i] < v - r) {
+				max_lcp = { v - r, lcp_now };
+				break;
+			}
+		}
+		
+		for (int i = num_arr[v] + 1, lcp_now = INT_MAX; i <= suf_arr.size(); i++) {
+			lcp_now = std::min(lcp_now, lcp[i]);
+			if (suf_arr[i] < v - r) {
+				if (lcp_now > max_lcp.second)
+					max_lcp = { v - r, lcp_now };
+				break;
+			}
+		}
+		return max_lcp;
+	}
 
 };
