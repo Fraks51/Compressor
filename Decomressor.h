@@ -14,6 +14,7 @@ class Decomressor : public Compres_abstract {
 private:
     std::deque<char> window;
     unsigned int WINDOW_SIZE;
+    std::ofstream ofs;
 
     bool add_in_window(char added);
 

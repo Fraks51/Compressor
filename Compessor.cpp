@@ -26,7 +26,6 @@ static std::vector<char> split_to_chars(unsigned int tmp_int) {
 void Compessor::compress(const std::string& file, const char *compressed_file) {
     input_file_reader.open(file, std::ios::in | std::ios::binary);
     ////debug
-    size_t DEBUD = 0;
     ofs.open(compressed_file);
     write_int(WINDOW_SIZE);
     unsigned int i = 0;
@@ -36,7 +35,6 @@ void Compessor::compress(const std::string& file, const char *compressed_file) {
         while (deq.size() < WINDOW_SIZE * 2 && current_c != -1)
         {
             deq.push_back(current_c);
-            DEBUD++;
             current_c = next_char();
         }
         std::string tmp_str;
@@ -46,7 +44,7 @@ void Compessor::compress(const std::string& file, const char *compressed_file) {
         }
         suffix_array array(tmp_str);
         int j = 0;
-        while (j < tmp_str.size() / 16 || WINDOW_SIZE + 1 > i)
+        while (j < (tmp_str.size() / 16) || (WINDOW_SIZE + 1 > i && i < tmp_str.size()))
         {
             auto max_lcp = array.get_max_lcp(static_cast<int>(i), static_cast<int>(WINDOW_SIZE));
             i += max_lcp.second;
@@ -61,8 +59,6 @@ void Compessor::compress(const std::string& file, const char *compressed_file) {
             write_int(max_lcp.first);
             write_int(max_lcp.second);
             ofs << tmp_str[i];
-            ////debug
-            std::cout << DEBUD << std::endl;
             i++;
         }
         if (current_c == -1) {
@@ -82,7 +78,7 @@ void Compessor::compress(const std::string& file, const char *compressed_file) {
         tmp_str.push_back(c);
     }
     suffix_array array(tmp_str);
-    while (true) {
+    while (i < tmp_str.size()) {
         auto max_lcp = array.get_max_lcp(static_cast<int>(i), static_cast<int>(WINDOW_SIZE));
         i += max_lcp.second;
         if (i == tmp_str.size()) {
@@ -92,8 +88,6 @@ void Compessor::compress(const std::string& file, const char *compressed_file) {
         write_int(max_lcp.first);
         write_int(max_lcp.second);
         ofs << tmp_str[i];
-        ////debug
-        std::cout << DEBUD << std::endl;
         if (i == tmp_str.size() - 1)
             break;
         i++;

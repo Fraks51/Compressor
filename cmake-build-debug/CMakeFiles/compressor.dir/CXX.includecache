@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/frak/CLionProjects/Compressor/Compessor.cpp
-deque
--
-algorithm
--
-iostream
--
-Compessor.h
-/home/frak/CLionProjects/Compressor/Compessor.h
-suffix_array.h
-/home/frak/CLionProjects/Compressor/suffix_array.h
-
 /home/frak/CLionProjects/Compressor/Compessor.h
 string
 -
@@ -29,6 +17,28 @@ fstream
 -
 suffix_array.h
 /home/frak/CLionProjects/Compressor/suffix_array.h
+
+/home/frak/CLionProjects/Compressor/Decomressor.h
+deque
+-
+string
+-
+Compres_abstract.h
+/home/frak/CLionProjects/Compressor/Compres_abstract.h
+
+/home/frak/CLionProjects/Compressor/main.cpp
+iostream
+-
+fstream
+-
+deque
+-
+vector
+-
+Compessor.h
+/home/frak/CLionProjects/Compressor/Compessor.h
+Decomressor.h
+/home/frak/CLionProjects/Compressor/Decomressor.h
 
 /home/frak/CLionProjects/Compressor/suffix_array.h
 string

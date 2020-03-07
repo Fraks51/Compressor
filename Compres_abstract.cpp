@@ -3,6 +3,7 @@
 //
 
 #include <cstring>
+#include <iostream>
 #include "Compres_abstract.h"
 
 char Compres_abstract::next_char() {

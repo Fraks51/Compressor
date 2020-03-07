@@ -14,7 +14,7 @@ protected:
     std::ifstream input_file_reader;
     unsigned int pointer;
     char *buffer;
-    unsigned int BUFFER_SIZE = 10;
+    unsigned int BUFFER_SIZE = 1024;
 
     char next_char();
 

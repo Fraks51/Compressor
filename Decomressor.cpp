@@ -11,7 +11,7 @@ Decomressor::Decomressor() : Compres_abstract() {}
 void Decomressor::decomress(const std::string& input_file, const char *output_file) {
     input_file_reader.open(input_file, std::ios::in | std::ios::binary);
     WINDOW_SIZE = next_int();
-    std::freopen(output_file, "w+", stdout);
+    ofs.open(output_file);
     while (next_char() != -1) {
         pointer--;
         size_t offset = window.size() - next_int(), distance = next_int();
@@ -41,7 +41,7 @@ unsigned int Decomressor::next_int() {
 
 bool Decomressor::add_in_window(char added) {
     window.push_back(added);
-    std::cout << added;
+    ofs << added;
     if (window.size() == WINDOW_SIZE)
     {
         window.pop_front();
