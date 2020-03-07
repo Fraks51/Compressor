@@ -3,8 +3,9 @@
 //
 
 #include <deque>
+#include <algorithm>
 #include "Compessor.h"
-#include "Suffics_array.h"
+#include "suffix_array.h"
 
 Compessor::Compessor(int level) : Compres_abstract() {
     WINDOW_SIZE = 1024 + level * 512;
@@ -16,7 +17,7 @@ static std::vector<char> split_to_chars(unsigned int tmp_int) {
         tmp_vec.push_back(static_cast<char>((tmp_int & 0xFF) - 128));
         tmp_int >>= 8;
     }
-    reverse(tmp_vec.begin(), tmp_vec.end());
+    std::reverse(tmp_vec.begin(), tmp_vec.end());
     return tmp_vec;
 }
 
@@ -38,7 +39,10 @@ void Compessor::compress(const std::string& file, const char *compressed_file) {
         {
             tmp_str.push_back(c);
         }
-        for
+        suffix_array array(tmp_str);
+        for (int j = 0; j < WINDOW_SIZE / 8;) {
+            array
+        }
     }
 }
 
