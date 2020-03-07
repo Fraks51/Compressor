@@ -102,13 +102,13 @@
 		<Unit filename="/home/frak/CLionProjects/Compressor/Decomressor.h">
 			<Option target="compressor"/>
 		</Unit>
-		<Unit filename="/home/frak/CLionProjects/Compressor/Suffics_array.cpp">
-			<Option target="compressor"/>
-		</Unit>
-		<Unit filename="/home/frak/CLionProjects/Compressor/Suffics_array.h">
-			<Option target="compressor"/>
-		</Unit>
 		<Unit filename="/home/frak/CLionProjects/Compressor/main.cpp">
+			<Option target="compressor"/>
+		</Unit>
+		<Unit filename="/home/frak/CLionProjects/Compressor/suffix_array.cpp">
+			<Option target="compressor"/>
+		</Unit>
+		<Unit filename="/home/frak/CLionProjects/Compressor/suffix_array.h">
 			<Option target="compressor"/>
 		</Unit>
 		<Unit filename="/home/frak/CLionProjects/Compressor/test.cpp">

@@ -23,6 +23,7 @@ void Decomressor::decomress(const std::string& input_file, const char *output_fi
         }
         add_in_window(next_char());
     }
+    input_file_reader.close();
 }
 
 

@@ -13,6 +13,7 @@ class Compessor : public Compres_abstract {
 private:
     unsigned int WINDOW_SIZE;
     std::ofstream ofs;
+    std::deque<char> deq;
 
     void write_int(unsigned int tmp_int);
 

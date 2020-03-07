@@ -2,14 +2,15 @@
 // Created by frak on 06.03.2020.
 //
 
+#include <cstring>
 #include "Compres_abstract.h"
 
 char Compres_abstract::next_char() {
     if (pointer >= BUFFER_SIZE)
     {
-        if (input_file_reader.get(buffer, 1024))
+        BUFFER_SIZE = input_file_reader.readsome(buffer, BUFFER_SIZE);
+        if (BUFFER_SIZE != 0)
         {
-            BUFFER_SIZE = input_file_reader.gcount();
             pointer = 0;
         }
         else {
@@ -21,5 +22,25 @@ char Compres_abstract::next_char() {
 }
 
 Compres_abstract::Compres_abstract() {
-    pointer = 0;
+    pointer = BUFFER_SIZE;
+    buffer = new char(BUFFER_SIZE);
 }
+
+Compres_abstract::~Compres_abstract() {
+    delete [] buffer;
+}
+
+Compres_abstract &Compres_abstract::operator=(const Compres_abstract & tmp) {
+    if(this!=&tmp) {
+        BUFFER_SIZE = tmp.BUFFER_SIZE;
+        char *ss = new char[BUFFER_SIZE];
+        delete[] buffer;
+        std::strcpy(ss, tmp.buffer);
+        buffer = ss;
+    }
+    return *this;
+}
+
+
+
+

@@ -7,18 +7,23 @@
 
 
 #include <fstream>
+#include "suffix_array.h"
 
 class Compres_abstract {
 protected:
     std::ifstream input_file_reader;
-    short pointer;
-    char buffer[1024];
-    int BUFFER_SIZE = 1024;
+    unsigned int pointer;
+    char *buffer;
+    unsigned int BUFFER_SIZE = 10;
 
     char next_char();
 
 public:
     Compres_abstract();
+
+    Compres_abstract &operator=(const Compres_abstract & tmp);
+
+    ~Compres_abstract();
 };
 
 

@@ -4,6 +4,7 @@
 
 #include <deque>
 #include <algorithm>
+#include <iostream>
 #include "Compessor.h"
 #include "suffix_array.h"
 
@@ -21,18 +22,22 @@ static std::vector<char> split_to_chars(unsigned int tmp_int) {
     return tmp_vec;
 }
 
+
 void Compessor::compress(const std::string& file, const char *compressed_file) {
     input_file_reader.open(file, std::ios::in | std::ios::binary);
+    ////debug
+    size_t DEBUD = 0;
     ofs.open(compressed_file);
-    std::deque<char> deq;
     write_int(WINDOW_SIZE);
-    int i = 0;
+    unsigned int i = 0;
     while (true)
     {
         char current_c = next_char();
         while (deq.size() < WINDOW_SIZE * 2 && current_c != -1)
         {
             deq.push_back(current_c);
+            DEBUD++;
+            current_c = next_char();
         }
         std::string tmp_str;
         for (char c : deq)
@@ -40,15 +45,69 @@ void Compessor::compress(const std::string& file, const char *compressed_file) {
             tmp_str.push_back(c);
         }
         suffix_array array(tmp_str);
-        for (int j = 0; j < WINDOW_SIZE / 8;) {
-            array
+        int j = 0;
+        while (j < tmp_str.size() / 16 || WINDOW_SIZE + 1 > i)
+        {
+            auto max_lcp = array.get_max_lcp(static_cast<int>(i), static_cast<int>(WINDOW_SIZE));
+            i += max_lcp.second;
+            if (i == tmp_str.size()) {
+                max_lcp.second--;
+                i--;
+                if (max_lcp.second < 0) {
+                    throw std::runtime_error("-1 write in file");
+                }
+            }
+            j += max_lcp.second + 1;
+            write_int(max_lcp.first);
+            write_int(max_lcp.second);
+            ofs << tmp_str[i];
+            ////debug
+            std::cout << DEBUD << std::endl;
+            i++;
         }
+        if (current_c == -1) {
+            break;
+        } else {
+            deq.pop_front();
+            deq.push_back(current_c);
+            for (int c = 0; c < (i - WINDOW_SIZE) - 1; c++) {
+                deq.pop_front();
+            }
+        }
+        i = std::min(i, WINDOW_SIZE);
     }
+
+    std::string tmp_str;
+    for (char c : deq) {
+        tmp_str.push_back(c);
+    }
+    suffix_array array(tmp_str);
+    while (true) {
+        auto max_lcp = array.get_max_lcp(static_cast<int>(i), static_cast<int>(WINDOW_SIZE));
+        i += max_lcp.second;
+        if (i == tmp_str.size()) {
+            max_lcp.second--;
+            i--;
+        }
+        write_int(max_lcp.first);
+        write_int(max_lcp.second);
+        ofs << tmp_str[i];
+        ////debug
+        std::cout << DEBUD << std::endl;
+        if (i == tmp_str.size() - 1)
+            break;
+        i++;
+    }
+    input_file_reader.close();
+    ofs.close();
 }
+
+
 
 void Compessor::write_int(unsigned int tmp_int) {
     for (char i : split_to_chars(tmp_int)) {
         ofs<< i;
     }
 }
+
 

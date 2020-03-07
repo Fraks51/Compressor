@@ -96,22 +96,9 @@ CMakeFiles/compressor.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compressor.dir/test.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/frak/CLionProjects/Compressor/test.cpp -o CMakeFiles/compressor.dir/test.cpp.s
 
-CMakeFiles/compressor.dir/Suffics_array.cpp.o: CMakeFiles/compressor.dir/flags.make
-CMakeFiles/compressor.dir/Suffics_array.cpp.o: ../Suffics_array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/compressor.dir/Suffics_array.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compressor.dir/Suffics_array.cpp.o -c /home/frak/CLionProjects/Compressor/Suffics_array.cpp
-
-CMakeFiles/compressor.dir/Suffics_array.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compressor.dir/Suffics_array.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/frak/CLionProjects/Compressor/Suffics_array.cpp > CMakeFiles/compressor.dir/Suffics_array.cpp.i
-
-CMakeFiles/compressor.dir/Suffics_array.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compressor.dir/Suffics_array.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/frak/CLionProjects/Compressor/Suffics_array.cpp -o CMakeFiles/compressor.dir/Suffics_array.cpp.s
-
 CMakeFiles/compressor.dir/Compessor.cpp.o: CMakeFiles/compressor.dir/flags.make
 CMakeFiles/compressor.dir/Compessor.cpp.o: ../Compessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/compressor.dir/Compessor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/compressor.dir/Compessor.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compressor.dir/Compessor.cpp.o -c /home/frak/CLionProjects/Compressor/Compessor.cpp
 
 CMakeFiles/compressor.dir/Compessor.cpp.i: cmake_force
@@ -124,7 +111,7 @@ CMakeFiles/compressor.dir/Compessor.cpp.s: cmake_force
 
 CMakeFiles/compressor.dir/Compres_abstract.cpp.o: CMakeFiles/compressor.dir/flags.make
 CMakeFiles/compressor.dir/Compres_abstract.cpp.o: ../Compres_abstract.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/compressor.dir/Compres_abstract.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/compressor.dir/Compres_abstract.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compressor.dir/Compres_abstract.cpp.o -c /home/frak/CLionProjects/Compressor/Compres_abstract.cpp
 
 CMakeFiles/compressor.dir/Compres_abstract.cpp.i: cmake_force
@@ -135,14 +122,27 @@ CMakeFiles/compressor.dir/Compres_abstract.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compressor.dir/Compres_abstract.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/frak/CLionProjects/Compressor/Compres_abstract.cpp -o CMakeFiles/compressor.dir/Compres_abstract.cpp.s
 
+CMakeFiles/compressor.dir/suffix_array.cpp.o: CMakeFiles/compressor.dir/flags.make
+CMakeFiles/compressor.dir/suffix_array.cpp.o: ../suffix_array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/compressor.dir/suffix_array.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compressor.dir/suffix_array.cpp.o -c /home/frak/CLionProjects/Compressor/suffix_array.cpp
+
+CMakeFiles/compressor.dir/suffix_array.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compressor.dir/suffix_array.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/frak/CLionProjects/Compressor/suffix_array.cpp > CMakeFiles/compressor.dir/suffix_array.cpp.i
+
+CMakeFiles/compressor.dir/suffix_array.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compressor.dir/suffix_array.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/frak/CLionProjects/Compressor/suffix_array.cpp -o CMakeFiles/compressor.dir/suffix_array.cpp.s
+
 # Object files for target compressor
 compressor_OBJECTS = \
 "CMakeFiles/compressor.dir/main.cpp.o" \
 "CMakeFiles/compressor.dir/Decomressor.cpp.o" \
 "CMakeFiles/compressor.dir/test.cpp.o" \
-"CMakeFiles/compressor.dir/Suffics_array.cpp.o" \
 "CMakeFiles/compressor.dir/Compessor.cpp.o" \
-"CMakeFiles/compressor.dir/Compres_abstract.cpp.o"
+"CMakeFiles/compressor.dir/Compres_abstract.cpp.o" \
+"CMakeFiles/compressor.dir/suffix_array.cpp.o"
 
 # External object files for target compressor
 compressor_EXTERNAL_OBJECTS =
@@ -150,9 +150,9 @@ compressor_EXTERNAL_OBJECTS =
 compressor: CMakeFiles/compressor.dir/main.cpp.o
 compressor: CMakeFiles/compressor.dir/Decomressor.cpp.o
 compressor: CMakeFiles/compressor.dir/test.cpp.o
-compressor: CMakeFiles/compressor.dir/Suffics_array.cpp.o
 compressor: CMakeFiles/compressor.dir/Compessor.cpp.o
 compressor: CMakeFiles/compressor.dir/Compres_abstract.cpp.o
+compressor: CMakeFiles/compressor.dir/suffix_array.cpp.o
 compressor: CMakeFiles/compressor.dir/build.make
 compressor: CMakeFiles/compressor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable compressor"

@@ -204,33 +204,6 @@ Decomressor.cpp.s:
 	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Decomressor.cpp.s
 .PHONY : Decomressor.cpp.s
 
-Suffics_array.o: Suffics_array.cpp.o
-
-.PHONY : Suffics_array.o
-
-# target to build an object file
-Suffics_array.cpp.o:
-	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Suffics_array.cpp.o
-.PHONY : Suffics_array.cpp.o
-
-Suffics_array.i: Suffics_array.cpp.i
-
-.PHONY : Suffics_array.i
-
-# target to preprocess a source file
-Suffics_array.cpp.i:
-	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Suffics_array.cpp.i
-.PHONY : Suffics_array.cpp.i
-
-Suffics_array.s: Suffics_array.cpp.s
-
-.PHONY : Suffics_array.s
-
-# target to generate assembly for a file
-Suffics_array.cpp.s:
-	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Suffics_array.cpp.s
-.PHONY : Suffics_array.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -257,6 +230,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+suffix_array.o: suffix_array.cpp.o
+
+.PHONY : suffix_array.o
+
+# target to build an object file
+suffix_array.cpp.o:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/suffix_array.cpp.o
+.PHONY : suffix_array.cpp.o
+
+suffix_array.i: suffix_array.cpp.i
+
+.PHONY : suffix_array.i
+
+# target to preprocess a source file
+suffix_array.cpp.i:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/suffix_array.cpp.i
+.PHONY : suffix_array.cpp.i
+
+suffix_array.s: suffix_array.cpp.s
+
+.PHONY : suffix_array.s
+
+# target to generate assembly for a file
+suffix_array.cpp.s:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/suffix_array.cpp.s
+.PHONY : suffix_array.cpp.s
 
 test.o: test.cpp.o
 
@@ -303,12 +303,12 @@ help:
 	@echo "... Decomressor.o"
 	@echo "... Decomressor.i"
 	@echo "... Decomressor.s"
-	@echo "... Suffics_array.o"
-	@echo "... Suffics_array.i"
-	@echo "... Suffics_array.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... suffix_array.o"
+	@echo "... suffix_array.i"
+	@echo "... suffix_array.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

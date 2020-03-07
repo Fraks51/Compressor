@@ -3,4 +3,4 @@ project(compressor)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(compressor main.cpp Decomressor.cpp Decomressor.h test.cpp Compessor.cpp Compessor.h Compres_abstract.cpp Compres_abstract.h)
+add_executable(compressor main.cpp Decomressor.cpp Decomressor.h test.cpp Compessor.cpp Compessor.h Compres_abstract.cpp Compres_abstract.h suffix_array.cpp suffix_array.h)
