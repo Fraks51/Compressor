@@ -16,6 +16,7 @@ private:
     deque<char> prev_buffer;
     deque<char> next_buffer;
     unsigned short BUFFER_MAX_SIZE;
+    char buffer[1024];
 public:
     Compressor(unsigned short BUFFER_SIZE) : BUFFER_MAX_SIZE(BUFFER_SIZE) {}
 
@@ -63,9 +64,8 @@ int main() {
     char *reader_buffer = nullptr;
     Compressor compressor(BUFFER_SIZE);
     int read_len;
-    while ((read_len = file_reader.readsome(reader_buffer, BUFFER_SIZE)) != 0 )
+    while ((read_len = file_reader.readsome(reader_buffer, BUFFER_SIZE)) != 0)
     {
-
 
     }
 

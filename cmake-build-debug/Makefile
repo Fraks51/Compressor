@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/frak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.4865.10/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/frak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.6073.20/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/frak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.4865.10/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/frak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.6073.20/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/frak/CLionProjects/Compressor/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/frak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.4865.10/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/frak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.6073.20/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/frak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.4865.10/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/frak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.6073.20/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,6 +123,114 @@ compressor/fast:
 	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/build
 .PHONY : compressor/fast
 
+Compessor.o: Compessor.cpp.o
+
+.PHONY : Compessor.o
+
+# target to build an object file
+Compessor.cpp.o:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Compessor.cpp.o
+.PHONY : Compessor.cpp.o
+
+Compessor.i: Compessor.cpp.i
+
+.PHONY : Compessor.i
+
+# target to preprocess a source file
+Compessor.cpp.i:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Compessor.cpp.i
+.PHONY : Compessor.cpp.i
+
+Compessor.s: Compessor.cpp.s
+
+.PHONY : Compessor.s
+
+# target to generate assembly for a file
+Compessor.cpp.s:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Compessor.cpp.s
+.PHONY : Compessor.cpp.s
+
+Compres_abstract.o: Compres_abstract.cpp.o
+
+.PHONY : Compres_abstract.o
+
+# target to build an object file
+Compres_abstract.cpp.o:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Compres_abstract.cpp.o
+.PHONY : Compres_abstract.cpp.o
+
+Compres_abstract.i: Compres_abstract.cpp.i
+
+.PHONY : Compres_abstract.i
+
+# target to preprocess a source file
+Compres_abstract.cpp.i:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Compres_abstract.cpp.i
+.PHONY : Compres_abstract.cpp.i
+
+Compres_abstract.s: Compres_abstract.cpp.s
+
+.PHONY : Compres_abstract.s
+
+# target to generate assembly for a file
+Compres_abstract.cpp.s:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Compres_abstract.cpp.s
+.PHONY : Compres_abstract.cpp.s
+
+Decomressor.o: Decomressor.cpp.o
+
+.PHONY : Decomressor.o
+
+# target to build an object file
+Decomressor.cpp.o:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Decomressor.cpp.o
+.PHONY : Decomressor.cpp.o
+
+Decomressor.i: Decomressor.cpp.i
+
+.PHONY : Decomressor.i
+
+# target to preprocess a source file
+Decomressor.cpp.i:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Decomressor.cpp.i
+.PHONY : Decomressor.cpp.i
+
+Decomressor.s: Decomressor.cpp.s
+
+.PHONY : Decomressor.s
+
+# target to generate assembly for a file
+Decomressor.cpp.s:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Decomressor.cpp.s
+.PHONY : Decomressor.cpp.s
+
+Suffics_array.o: Suffics_array.cpp.o
+
+.PHONY : Suffics_array.o
+
+# target to build an object file
+Suffics_array.cpp.o:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Suffics_array.cpp.o
+.PHONY : Suffics_array.cpp.o
+
+Suffics_array.i: Suffics_array.cpp.i
+
+.PHONY : Suffics_array.i
+
+# target to preprocess a source file
+Suffics_array.cpp.i:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Suffics_array.cpp.i
+.PHONY : Suffics_array.cpp.i
+
+Suffics_array.s: Suffics_array.cpp.s
+
+.PHONY : Suffics_array.s
+
+# target to generate assembly for a file
+Suffics_array.cpp.s:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Suffics_array.cpp.s
+.PHONY : Suffics_array.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +258,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +294,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... compressor"
+	@echo "... Compessor.o"
+	@echo "... Compessor.i"
+	@echo "... Compessor.s"
+	@echo "... Compres_abstract.o"
+	@echo "... Compres_abstract.i"
+	@echo "... Compres_abstract.s"
+	@echo "... Decomressor.o"
+	@echo "... Decomressor.i"
+	@echo "... Decomressor.s"
+	@echo "... Suffics_array.o"
+	@echo "... Suffics_array.i"
+	@echo "... Suffics_array.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

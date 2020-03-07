@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/frak/CLionProjects/Compressor/main.cpp
-iostream
--
+/home/frak/CLionProjects/Compressor/Decomressor.cpp
 fstream
 -
+iostream
+-
+Decomressor.h
+/home/frak/CLionProjects/Compressor/Decomressor.h
+
+/home/frak/CLionProjects/Compressor/Decomressor.h
 deque
 -
-vector
+string
 -
 
