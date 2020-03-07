@@ -1,4 +1,7 @@
-/home/frak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.6073.20/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/frak/CLionProjects/Compressor
--- Configuring done
--- Generating done
--- Build files have been written to: /home/frak/CLionProjects/Compressor/cmake-build-debug
+/snap/clion/103/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/frak/CLionProjects/Compressor
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.16 or higher is required.  You are running version 3.15.3
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles/CMakeOutput.log".

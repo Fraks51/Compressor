@@ -9,8 +9,8 @@ using namespace std;
 
 int main() {
     Compessor compessor(100);
-    compessor.compress("test.out", "compressed_test.txt");
-//    Decomressor decomressor;
-//    decomressor.decomress("compressed_test.txt",  "decompressed_test.txt");
+    compessor.compress("little_bible.txt", "compressed_test.txt");
+    Decomressor decomressor;
+    decomressor.decomress("compressed_test.txt",  "decompressed_test.txt");
     return 0;
 }

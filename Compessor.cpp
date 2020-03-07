@@ -8,8 +8,10 @@
 #include "Compessor.h"
 #include "suffix_array.h"
 
-Compessor::Compessor(int level) : Compres_abstract() {
-    WINDOW_SIZE = 1024 + level * 512;
+Compessor::Compessor(int level) {
+    WINDOW_SIZE = 16384 + level * 8196;
+    pointer = BUFFER_SIZE;
+    buffer = new char(BUFFER_SIZE);
 }
 
 static std::vector<char> split_to_chars(unsigned int tmp_int) {
@@ -102,6 +104,26 @@ void Compessor::write_int(unsigned int tmp_int) {
     for (char i : split_to_chars(tmp_int)) {
         ofs<< i;
     }
+}
+
+Compessor::~Compessor() {
+    delete [] buffer;
+}
+
+char Compessor::next_char() {
+    if (pointer >= BUFFER_SIZE)
+    {
+        BUFFER_SIZE = input_file_reader.readsome(buffer, BUFFER_SIZE);
+        if (BUFFER_SIZE != 0)
+        {
+            pointer = 0;
+        }
+        else {
+            return -1;
+        }
+    }
+    pointer++;
+    return buffer[pointer - 1];
 }
 
 

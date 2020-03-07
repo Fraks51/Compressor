@@ -10,7 +10,7 @@
 #include <string>
 #include "Compres_abstract.h"
 
-class Decomressor : public Compres_abstract {
+class Decomressor {
 private:
     std::deque<char> window;
     unsigned int WINDOW_SIZE;
@@ -19,7 +19,17 @@ private:
     bool add_in_window(char added);
 
     unsigned int next_int();
+
+    std::ifstream input_file_reader;
+    unsigned int pointer;
+    char *buffer;
+    unsigned int BUFFER_SIZE = 10;
+
+    char next_char();
+
 public:
+    ~Decomressor();
+
     explicit Decomressor();
 
     void decomress(const std::string& input_file, const char * output_file);

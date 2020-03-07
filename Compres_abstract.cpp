@@ -20,6 +20,11 @@ char Compres_abstract::next_char() {
     }
     pointer++;
     return buffer[pointer - 1];
+    if (pointer >= 4334) {
+        return -1;
+    }
+    pointer++;
+    return 0;
 }
 
 Compres_abstract::Compres_abstract() {

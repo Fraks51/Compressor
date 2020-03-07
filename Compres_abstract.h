@@ -16,7 +16,7 @@ protected:
     char *buffer;
     unsigned int BUFFER_SIZE = 1024;
 
-    char next_char();
+    virtual char next_char();
 
 public:
     Compres_abstract();
