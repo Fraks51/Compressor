@@ -15,15 +15,14 @@ private:
     std::deque<char> window;
     unsigned int WINDOW_SIZE;
     std::ofstream ofs;
+    std::ifstream input_file_reader;
+    unsigned int pointer;
+    char *buffer;
+    unsigned int BUFFER_SIZE = 20;
 
     bool add_in_window(char added);
 
     unsigned int next_int();
-
-    std::ifstream input_file_reader;
-    unsigned int pointer;
-    char *buffer;
-    unsigned int BUFFER_SIZE = 10;
 
     char next_char();
 
@@ -32,7 +31,7 @@ public:
 
     explicit Decomressor();
 
-    void decomress(const std::string& input_file, const char * output_file);
+    void decomress(const std::string& input_file, std::string output_file);
 
 };
 

@@ -9,7 +9,7 @@
 #include "suffix_array.h"
 
 Compessor::Compessor(int level) {
-    WINDOW_SIZE = 16384 + level * 8196;
+    WINDOW_SIZE = 262144  + level * 16346;
     pointer = BUFFER_SIZE;
     buffer = new char(BUFFER_SIZE);
 }
@@ -24,8 +24,34 @@ static std::vector<char> split_to_chars(unsigned int tmp_int) {
     return tmp_vec;
 }
 
+std::string make_string(std::deque<char> & deq) {
+    std::string tmp_str;
+    for (char c : deq) {
+        tmp_str.push_back(c);
+    }
+    return tmp_str;
+}
 
-void Compessor::compress(const std::string& file, const char *compressed_file) {
+void Compessor::end_write(unsigned int i) {
+    std::string tmp_str = make_string(deq);
+    suffix_array array(tmp_str);
+    while (i < tmp_str.size()) {
+        auto max_lcp = array.get_max_lcp(static_cast<int>(i), static_cast<int>(WINDOW_SIZE));
+        i += max_lcp.second;
+        if (i == tmp_str.size()) {
+            max_lcp.second--;
+            i--;
+        }
+        write_int(max_lcp.first);
+        write_int(max_lcp.second);
+        ofs << tmp_str[i];
+        if (i == tmp_str.size() - 1)
+            break;
+        i++;
+    }
+}
+
+void Compessor::compress(const std::string& file, std::string compressed_file) {
     input_file_reader.open(file, std::ios::in | std::ios::binary);
     ////debug
     ofs.open(compressed_file);
@@ -34,16 +60,11 @@ void Compessor::compress(const std::string& file, const char *compressed_file) {
     while (true)
     {
         char current_c = next_char();
-        while (deq.size() < WINDOW_SIZE * 2 && current_c != -1)
-        {
+        while (deq.size() < WINDOW_SIZE * 2 && current_c != -1) {
             deq.push_back(current_c);
             current_c = next_char();
         }
-        std::string tmp_str;
-        for (char c : deq)
-        {
-            tmp_str.push_back(c);
-        }
+        std::string tmp_str = make_string(deq);
         suffix_array array(tmp_str);
         int j = 0;
         while (j < (tmp_str.size() / 16) || (WINDOW_SIZE + 1 > i && i < tmp_str.size()))
@@ -53,9 +74,6 @@ void Compessor::compress(const std::string& file, const char *compressed_file) {
             if (i == tmp_str.size()) {
                 max_lcp.second--;
                 i--;
-                if (max_lcp.second < 0) {
-                    throw std::runtime_error("-1 write in file");
-                }
             }
             j += max_lcp.second + 1;
             write_int(max_lcp.first);
@@ -75,25 +93,8 @@ void Compessor::compress(const std::string& file, const char *compressed_file) {
         i = std::min(i, WINDOW_SIZE);
     }
 
-    std::string tmp_str;
-    for (char c : deq) {
-        tmp_str.push_back(c);
-    }
-    suffix_array array(tmp_str);
-    while (i < tmp_str.size()) {
-        auto max_lcp = array.get_max_lcp(static_cast<int>(i), static_cast<int>(WINDOW_SIZE));
-        i += max_lcp.second;
-        if (i == tmp_str.size()) {
-            max_lcp.second--;
-            i--;
-        }
-        write_int(max_lcp.first);
-        write_int(max_lcp.second);
-        ofs << tmp_str[i];
-        if (i == tmp_str.size() - 1)
-            break;
-        i++;
-    }
+    end_write(i);
+
     input_file_reader.close();
     ofs.close();
 }

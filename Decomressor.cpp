@@ -11,7 +11,7 @@ Decomressor::Decomressor() {
     buffer = new char(BUFFER_SIZE);
 }
 
-void Decomressor::decomress(const std::string& input_file, const char *output_file) {
+void Decomressor::decomress(const std::string& input_file, std::string output_file) {
     input_file_reader.open(input_file, std::ios::in | std::ios::binary);
     WINDOW_SIZE = next_int();
     ofs.open(output_file);
@@ -27,6 +27,7 @@ void Decomressor::decomress(const std::string& input_file, const char *output_fi
         add_in_window(next_char());
     }
     input_file_reader.close();
+    ofs.close();
 }
 
 
