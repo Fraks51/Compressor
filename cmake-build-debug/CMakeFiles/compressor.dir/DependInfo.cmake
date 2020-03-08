@@ -5,11 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/frak/CLionProjects/Compressor/Compessor.cpp" "/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles/compressor.dir/Compessor.cpp.o"
-  "/home/frak/CLionProjects/Compressor/Compres_abstract.cpp" "/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles/compressor.dir/Compres_abstract.cpp.o"
   "/home/frak/CLionProjects/Compressor/Decomressor.cpp" "/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles/compressor.dir/Decomressor.cpp.o"
   "/home/frak/CLionProjects/Compressor/main.cpp" "/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles/compressor.dir/main.cpp.o"
   "/home/frak/CLionProjects/Compressor/suffix_array.cpp" "/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles/compressor.dir/suffix_array.cpp.o"
-  "/home/frak/CLionProjects/Compressor/test.cpp" "/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles/compressor.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

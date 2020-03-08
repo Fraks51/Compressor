@@ -31,16 +31,28 @@
   <component name="ChangeListManager">
     <list default="true" id="66022b30-2c87-4e0f-a903-d40104adf940" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compessor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compessor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Compessor.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Decomressor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Decomressor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Decomressor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Decomressor.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/Compessor.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/Compessor.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/compressor" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/compressor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compressed_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/compressed_test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compres_abstract.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compres_abstract.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loren_ipsem.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bible.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/compressor.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/compressor.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compressed_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/decompressed_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/little_bible.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/suffix_array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/suffix_array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.out" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +85,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration name="compressor" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-O3" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="compressor" TARGET_NAME="compressor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="compressor" RUN_TARGET_NAME="compressor">
+    <configuration name="compressor" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-O3" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="compressor" TARGET_NAME="compressor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="compressor" RUN_TARGET_NAME="compressor">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -96,24 +108,24 @@
       <workItem from="1583584986932" duration="17477000" />
       <workItem from="1583612406580" duration="2976000" />
       <workItem from="1583625487973" duration="3929000" />
+      <workItem from="1583629656164" duration="353000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583613940409">

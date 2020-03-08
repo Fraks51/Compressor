@@ -103,7 +103,7 @@ std::pair<int, int> suffix_array::get_max_lcp(int v, int r) {//first - offset , 
     std::pair<int, int> max_lcp = { 0, 0 };
     for (int i = num_arr[v] - 1, lcp_now = INT_MAX; i >= 0; i--) {
         lcp_now = std::min(lcp_now, lcp[i]);
-        if (suf_arr[i] < v && r > abs(suf_arr[i] - v) && lcp_now != 0) {
+        if (suf_arr[i] < v && r > abs(suf_arr[i] - v)) {
             max_lcp = { v - suf_arr[i], lcp_now };
             break;
         }
@@ -111,7 +111,7 @@ std::pair<int, int> suffix_array::get_max_lcp(int v, int r) {//first - offset , 
 
     for (int i = num_arr[v] + 1, lcp_now = INT_MAX; i <= suf_arr.size(); i++) {
         lcp_now = std::min(lcp_now, lcp[i - 1]);
-        if (suf_arr[i] < v && r > abs(suf_arr[i] - v) && lcp_now != 0) {
+        if (suf_arr[i] < v && r > abs(suf_arr[i] - v)) {
             if (lcp_now >= max_lcp.second)
                 max_lcp = { v - suf_arr[i], lcp_now };
             break;

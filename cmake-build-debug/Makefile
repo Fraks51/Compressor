@@ -150,33 +150,6 @@ Compessor.cpp.s:
 	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Compessor.cpp.s
 .PHONY : Compessor.cpp.s
 
-Compres_abstract.o: Compres_abstract.cpp.o
-
-.PHONY : Compres_abstract.o
-
-# target to build an object file
-Compres_abstract.cpp.o:
-	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Compres_abstract.cpp.o
-.PHONY : Compres_abstract.cpp.o
-
-Compres_abstract.i: Compres_abstract.cpp.i
-
-.PHONY : Compres_abstract.i
-
-# target to preprocess a source file
-Compres_abstract.cpp.i:
-	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Compres_abstract.cpp.i
-.PHONY : Compres_abstract.cpp.i
-
-Compres_abstract.s: Compres_abstract.cpp.s
-
-.PHONY : Compres_abstract.s
-
-# target to generate assembly for a file
-Compres_abstract.cpp.s:
-	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/Compres_abstract.cpp.s
-.PHONY : Compres_abstract.cpp.s
-
 Decomressor.o: Decomressor.cpp.o
 
 .PHONY : Decomressor.o
@@ -258,33 +231,6 @@ suffix_array.cpp.s:
 	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/suffix_array.cpp.s
 .PHONY : suffix_array.cpp.s
 
-test.o: test.cpp.o
-
-.PHONY : test.o
-
-# target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/test.cpp.o
-.PHONY : test.cpp.o
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/test.cpp.s
-.PHONY : test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -297,9 +243,6 @@ help:
 	@echo "... Compessor.o"
 	@echo "... Compessor.i"
 	@echo "... Compessor.s"
-	@echo "... Compres_abstract.o"
-	@echo "... Compres_abstract.i"
-	@echo "... Compres_abstract.s"
 	@echo "... Decomressor.o"
 	@echo "... Decomressor.i"
 	@echo "... Decomressor.s"
@@ -309,9 +252,6 @@ help:
 	@echo "... suffix_array.o"
 	@echo "... suffix_array.i"
 	@echo "... suffix_array.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
 .PHONY : help
 
 
