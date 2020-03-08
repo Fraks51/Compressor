@@ -7,7 +7,7 @@
 
 
 #include <string>
-#include "Compres_abstract.h"
+#include <fstream>
 
 class Compessor {
 private:

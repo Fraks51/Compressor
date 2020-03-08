@@ -126,5 +126,3 @@ char Compessor::next_char() {
     pointer++;
     return buffer[pointer - 1];
 }
-
-

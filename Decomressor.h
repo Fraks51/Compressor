@@ -8,7 +8,6 @@
 
 #include <deque>
 #include <string>
-#include "Compres_abstract.h"
 
 class Decomressor {
 private:
