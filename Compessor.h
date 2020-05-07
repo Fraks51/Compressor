@@ -8,6 +8,7 @@
 
 #include <string>
 #include <fstream>
+#include <queue>
 
 class Compessor {
 private:

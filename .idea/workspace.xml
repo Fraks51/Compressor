@@ -30,29 +30,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66022b30-2c87-4e0f-a903-d40104adf940" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Compressor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Compressor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kd.swp" beforeDir="false" afterPath="$PROJECT_DIR$/.kd.swp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compres_abstract.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compres_abstract.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loren_ipsem.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bible.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compessor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compessor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Compessor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decomressor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Decomressor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decomressor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Decomressor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.0/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.0/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.0/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.0/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.0/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.0/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.0/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.0/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/Compessor.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/Compessor.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/Compres_abstract.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/Decomressor.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/Decomressor.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/suffix_array.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/suffix_array.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/compressor.dir/test.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/compressor.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/compressor.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compressed_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decompressed_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/compressor" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/compressor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.in" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/Loren_ipsem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/Loren_ipsem.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/bible.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/compressed_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/compressed_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/decompressed_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/decompressed_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/test.in" beforeDir="false" afterPath="$PROJECT_DIR$/files/test.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/test.out" beforeDir="false" afterPath="$PROJECT_DIR$/files/test.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/little_bible.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/suffix_array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/suffix_array.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/suffix_array.h" beforeDir="false" afterPath="$PROJECT_DIR$/suffix_array.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +95,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1YBAa1vzTuverMhBrsE5oraBwkf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -73,6 +108,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
@@ -83,6 +119,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="compressor" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-O3" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="compressor" TARGET_NAME="compressor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="compressor" RUN_TARGET_NAME="compressor">
@@ -108,7 +150,15 @@
       <workItem from="1583584986932" duration="17477000" />
       <workItem from="1583612406580" duration="2976000" />
       <workItem from="1583625487973" duration="3929000" />
-      <workItem from="1583629656164" duration="353000" />
+      <workItem from="1583629656164" duration="2465000" />
+      <workItem from="1583632457144" duration="316000" />
+      <workItem from="1583664519856" duration="1591000" />
+      <workItem from="1583669074687" duration="3019000" />
+      <workItem from="1588156568682" duration="800000" />
+      <workItem from="1588192286758" duration="388000" />
+      <workItem from="1588192929389" duration="2400000" />
+      <workItem from="1588763103054" duration="20000" />
+      <workItem from="1588853531021" duration="456000" />
     </task>
     <servers />
   </component>
@@ -128,13 +178,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="442" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583613940409">
+    <state x="442" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583630231952">
       <screen x="46" y="0" width="1874" height="1080" />
     </state>
-    <state x="442" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/46.0.1874.1080@46.0.1874.1080" timestamp="1583613940409" />
-    <state x="730" y="340" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583612884033">
-      <screen x="46" y="0" width="1874" height="1080" />
+    <state x="442" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/46.0.1874.1080@46.0.1874.1080" timestamp="1583630231952" />
+    <state x="701" y="329" width="579" height="399" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588192389064">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
+    <state x="701" y="329" width="579" height="399" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1588192389064" />
     <state x="730" y="340" key="#com.intellij.fileTypes.FileTypeChooser/46.0.1874.1080@46.0.1874.1080" timestamp="1583612884033" />
     <state x="717" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583545116302">
       <screen x="46" y="0" width="1874" height="1080" />
@@ -148,50 +199,63 @@
       <screen x="46" y="0" width="1874" height="1080" />
     </state>
     <state x="840" y="337" key="EnvironmentVariablesDialog/46.0.1874.1080@46.0.1874.1080" timestamp="1583519311105" />
-    <state x="454" y="474" key="FileChooserDialogImpl" timestamp="1583519324962">
+    <state x="418" y="458" width="432" height="487" key="FileChooserDialogImpl" timestamp="1588763120344">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="418" y="458" width="432" height="487" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1588763120344" />
+    <state x="454" y="474" key="FileChooserDialogImpl/46.0.1874.1080@46.0.1874.1080" timestamp="1583664581324" />
+    <state width="1874" height="401" key="GridCell.Tab.0.bottom" timestamp="1588225930451">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="401" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1588225930451" />
+    <state width="887" height="283" key="GridCell.Tab.0.bottom/46.0.1874.1080@46.0.1874.1080" timestamp="1583672248421" />
+    <state width="1874" height="401" key="GridCell.Tab.0.center" timestamp="1588225930451">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="401" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1588225930451" />
+    <state width="887" height="283" key="GridCell.Tab.0.center/46.0.1874.1080@46.0.1874.1080" timestamp="1583672248420" />
+    <state width="1874" height="401" key="GridCell.Tab.0.left" timestamp="1588225930450">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="401" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1588225930450" />
+    <state width="887" height="283" key="GridCell.Tab.0.left/46.0.1874.1080@46.0.1874.1080" timestamp="1583672248420" />
+    <state width="1874" height="401" key="GridCell.Tab.0.right" timestamp="1588225930451">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="401" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1588225930451" />
+    <state width="887" height="283" key="GridCell.Tab.0.right/46.0.1874.1080@46.0.1874.1080" timestamp="1583672248420" />
+    <state width="1874" height="401" key="GridCell.Tab.1.bottom" timestamp="1588225930452">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="401" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1588225930452" />
+    <state width="1378" height="350" key="GridCell.Tab.1.bottom/46.0.1874.1080@46.0.1874.1080" timestamp="1583671178457" />
+    <state width="1874" height="401" key="GridCell.Tab.1.center" timestamp="1588225930451">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="401" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1588225930451" />
+    <state width="1378" height="350" key="GridCell.Tab.1.center/46.0.1874.1080@46.0.1874.1080" timestamp="1583671178456" />
+    <state width="1874" height="401" key="GridCell.Tab.1.left" timestamp="1588225930451">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="401" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1588225930451" />
+    <state width="1378" height="350" key="GridCell.Tab.1.left/46.0.1874.1080@46.0.1874.1080" timestamp="1583671178456" />
+    <state width="1874" height="401" key="GridCell.Tab.1.right" timestamp="1588225930451">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="401" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1588225930451" />
+    <state width="1378" height="350" key="GridCell.Tab.1.right/46.0.1874.1080@46.0.1874.1080" timestamp="1583671178457" />
+    <state x="480" y="173" key="SettingsEditor" timestamp="1583664587086">
       <screen x="46" y="0" width="1874" height="1080" />
     </state>
-    <state x="454" y="474" key="FileChooserDialogImpl/46.0.1874.1080@46.0.1874.1080" timestamp="1583519324962" />
-    <state width="1386" height="285" key="GridCell.Tab.0.bottom" timestamp="1583629471333">
-      <screen x="46" y="0" width="1874" height="1080" />
-    </state>
-    <state width="1386" height="285" key="GridCell.Tab.0.bottom/46.0.1874.1080@46.0.1874.1080" timestamp="1583629471333" />
-    <state width="1386" height="285" key="GridCell.Tab.0.center" timestamp="1583629471332">
-      <screen x="46" y="0" width="1874" height="1080" />
-    </state>
-    <state width="1386" height="285" key="GridCell.Tab.0.center/46.0.1874.1080@46.0.1874.1080" timestamp="1583629471332" />
-    <state width="1386" height="285" key="GridCell.Tab.0.left" timestamp="1583629471332">
-      <screen x="46" y="0" width="1874" height="1080" />
-    </state>
-    <state width="1386" height="285" key="GridCell.Tab.0.left/46.0.1874.1080@46.0.1874.1080" timestamp="1583629471332" />
-    <state width="1386" height="285" key="GridCell.Tab.0.right" timestamp="1583629471332">
-      <screen x="46" y="0" width="1874" height="1080" />
-    </state>
-    <state width="1386" height="285" key="GridCell.Tab.0.right/46.0.1874.1080@46.0.1874.1080" timestamp="1583629471332" />
-    <state width="1828" height="354" key="GridCell.Tab.1.bottom" timestamp="1583615382242">
-      <screen x="46" y="0" width="1874" height="1080" />
-    </state>
-    <state width="1828" height="354" key="GridCell.Tab.1.bottom/46.0.1874.1080@46.0.1874.1080" timestamp="1583615382242" />
-    <state width="1828" height="354" key="GridCell.Tab.1.center" timestamp="1583615382242">
-      <screen x="46" y="0" width="1874" height="1080" />
-    </state>
-    <state width="1828" height="354" key="GridCell.Tab.1.center/46.0.1874.1080@46.0.1874.1080" timestamp="1583615382242" />
-    <state width="1828" height="354" key="GridCell.Tab.1.left" timestamp="1583615382241">
-      <screen x="46" y="0" width="1874" height="1080" />
-    </state>
-    <state width="1828" height="354" key="GridCell.Tab.1.left/46.0.1874.1080@46.0.1874.1080" timestamp="1583615382241" />
-    <state width="1828" height="354" key="GridCell.Tab.1.right" timestamp="1583615382242">
-      <screen x="46" y="0" width="1874" height="1080" />
-    </state>
-    <state width="1828" height="354" key="GridCell.Tab.1.right/46.0.1874.1080@46.0.1874.1080" timestamp="1583615382242" />
+    <state x="480" y="173" key="SettingsEditor/46.0.1874.1080@46.0.1874.1080" timestamp="1583664587086" />
     <state width="937" height="540" key="XDebugger.FullValuePopup" timestamp="1583612168885">
       <screen x="46" y="0" width="1874" height="1080" />
     </state>
     <state width="937" height="540" key="XDebugger.FullValuePopup/46.0.1874.1080@46.0.1874.1080" timestamp="1583612168885" />
-    <state x="662" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1583625537364">
+    <state x="662" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1583669074978">
       <screen x="46" y="0" width="1874" height="1080" />
     </state>
-    <state x="662" y="367" key="com.intellij.ide.util.TipDialog/46.0.1874.1080@46.0.1874.1080" timestamp="1583625537364" />
+    <state x="662" y="367" key="com.intellij.ide.util.TipDialog/46.0.1874.1080@46.0.1874.1080" timestamp="1583669074978" />
     <state x="584" y="152" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583524198446">
       <screen x="46" y="0" width="1874" height="1080" />
     </state>
@@ -200,33 +264,39 @@
       <screen x="46" y="0" width="1874" height="1080" />
     </state>
     <state x="647" y="247" key="run.anything.popup/46.0.1874.1080@46.0.1874.1080" timestamp="1583551635074" />
-    <state x="646" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1583611687161">
-      <screen x="46" y="0" width="1874" height="1080" />
+    <state x="615" y="231" width="689" height="656" key="search.everywhere.popup" timestamp="1588193043506">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
+    <state x="615" y="231" width="689" height="656" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1588193043506" />
     <state x="646" y="239" width="672" height="678" key="search.everywhere.popup/46.0.1874.1080@46.0.1874.1080" timestamp="1583611687161" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Decomressor.cpp</url>
-          <line>28</line>
-          <option name="timeStamp" value="54" />
+          <url>file://$PROJECT_DIR$/Comperessor/Compessor.cpp</url>
+          <line>54</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>29</line>
-          <option name="timeStamp" value="56" />
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Compessor.h</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Compessor.cpp</url>
-          <line>74</line>
-          <option name="timeStamp" value="63" />
+          <line>53</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Compessor.cpp</url>
-          <line>55</line>
-          <option name="timeStamp" value="64" />
+          <line>10</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

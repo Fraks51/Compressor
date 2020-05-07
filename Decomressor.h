@@ -17,7 +17,7 @@ private:
     std::ifstream input_file_reader;
     unsigned int pointer;
     char *buffer;
-    unsigned int BUFFER_SIZE = 20;
+    unsigned int BUFFER_SIZE = 20; //todo
 
     bool add_in_window(char added);
 

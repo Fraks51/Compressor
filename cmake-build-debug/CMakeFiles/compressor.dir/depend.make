@@ -3,26 +3,15 @@
 
 CMakeFiles/compressor.dir/Compessor.cpp.o: ../Compessor.cpp
 CMakeFiles/compressor.dir/Compessor.cpp.o: ../Compessor.h
-CMakeFiles/compressor.dir/Compessor.cpp.o: ../Compres_abstract.h
 CMakeFiles/compressor.dir/Compessor.cpp.o: ../suffix_array.h
 
-CMakeFiles/compressor.dir/Compres_abstract.cpp.o: ../Compres_abstract.cpp
-CMakeFiles/compressor.dir/Compres_abstract.cpp.o: ../Compres_abstract.h
-CMakeFiles/compressor.dir/Compres_abstract.cpp.o: ../suffix_array.h
-
-CMakeFiles/compressor.dir/Decomressor.cpp.o: ../Compres_abstract.h
 CMakeFiles/compressor.dir/Decomressor.cpp.o: ../Decomressor.cpp
 CMakeFiles/compressor.dir/Decomressor.cpp.o: ../Decomressor.h
-CMakeFiles/compressor.dir/Decomressor.cpp.o: ../suffix_array.h
 
 CMakeFiles/compressor.dir/main.cpp.o: ../Compessor.h
-CMakeFiles/compressor.dir/main.cpp.o: ../Compres_abstract.h
 CMakeFiles/compressor.dir/main.cpp.o: ../Decomressor.h
 CMakeFiles/compressor.dir/main.cpp.o: ../main.cpp
-CMakeFiles/compressor.dir/main.cpp.o: ../suffix_array.h
 
 CMakeFiles/compressor.dir/suffix_array.cpp.o: ../suffix_array.cpp
 CMakeFiles/compressor.dir/suffix_array.cpp.o: ../suffix_array.h
-
-CMakeFiles/compressor.dir/test.cpp.o: ../test.cpp
 

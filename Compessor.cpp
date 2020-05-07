@@ -9,7 +9,7 @@
 #include "suffix_array.h"
 
 Compessor::Compessor(int level) {
-    WINDOW_SIZE = 262144  + level * 16346;
+    WINDOW_SIZE = 1024 + level * level * 128;
     pointer = BUFFER_SIZE;
     buffer = new char(BUFFER_SIZE);
 }
@@ -53,21 +53,20 @@ void Compessor::end_write(unsigned int i) {
 
 void Compessor::compress(const std::string& file, std::string compressed_file) {
     input_file_reader.open(file, std::ios::in | std::ios::binary);
-    ////debug
     ofs.open(compressed_file);
     write_int(WINDOW_SIZE);
     unsigned int i = 0;
     while (true)
     {
         char current_c = next_char();
-        while (deq.size() < WINDOW_SIZE * 2 && current_c != -1) {
+        while (deq.size() < WINDOW_SIZE * 3 && current_c != -1) {
             deq.push_back(current_c);
             current_c = next_char();
         }
         std::string tmp_str = make_string(deq);
         suffix_array array(tmp_str);
         int j = 0;
-        while (j < (tmp_str.size() / 16) || (WINDOW_SIZE + 1 > i && i < tmp_str.size()))
+        while (j < tmp_str.size() / 3 || (WINDOW_SIZE + 1 > i && i < tmp_str.size()))
         {
             auto max_lcp = array.get_max_lcp(static_cast<int>(i), static_cast<int>(WINDOW_SIZE));
             i += max_lcp.second;
