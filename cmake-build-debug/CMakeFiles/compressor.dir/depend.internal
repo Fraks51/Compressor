@@ -4,25 +4,14 @@
 CMakeFiles/compressor.dir/Compessor.cpp.o
  /home/frak/CLionProjects/Compressor/Compessor.cpp
  /home/frak/CLionProjects/Compressor/Compessor.h
- /home/frak/CLionProjects/Compressor/Compres_abstract.h
- /home/frak/CLionProjects/Compressor/suffix_array.h
-CMakeFiles/compressor.dir/Compres_abstract.cpp.o
- /home/frak/CLionProjects/Compressor/Compres_abstract.cpp
- /home/frak/CLionProjects/Compressor/Compres_abstract.h
  /home/frak/CLionProjects/Compressor/suffix_array.h
 CMakeFiles/compressor.dir/Decomressor.cpp.o
- /home/frak/CLionProjects/Compressor/Compres_abstract.h
  /home/frak/CLionProjects/Compressor/Decomressor.cpp
  /home/frak/CLionProjects/Compressor/Decomressor.h
- /home/frak/CLionProjects/Compressor/suffix_array.h
 CMakeFiles/compressor.dir/main.cpp.o
  /home/frak/CLionProjects/Compressor/Compessor.h
- /home/frak/CLionProjects/Compressor/Compres_abstract.h
  /home/frak/CLionProjects/Compressor/Decomressor.h
  /home/frak/CLionProjects/Compressor/main.cpp
- /home/frak/CLionProjects/Compressor/suffix_array.h
 CMakeFiles/compressor.dir/suffix_array.cpp.o
  /home/frak/CLionProjects/Compressor/suffix_array.cpp
  /home/frak/CLionProjects/Compressor/suffix_array.h
-CMakeFiles/compressor.dir/test.cpp.o
- /home/frak/CLionProjects/Compressor/test.cpp

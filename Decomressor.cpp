@@ -6,9 +6,12 @@
 #include <iostream>
 #include "Decomressor.h"
 
-Decomressor::Decomressor() : Compres_abstract() {}
+Decomressor::Decomressor() {
+    pointer = BUFFER_SIZE;
+    buffer = new char(BUFFER_SIZE);
+}
 
-void Decomressor::decomress(const std::string& input_file, const char *output_file) {
+void Decomressor::decomress(const std::string& input_file, std::string output_file) {
     input_file_reader.open(input_file, std::ios::in | std::ios::binary);
     WINDOW_SIZE = next_int();
     ofs.open(output_file);
@@ -24,6 +27,7 @@ void Decomressor::decomress(const std::string& input_file, const char *output_fi
         add_in_window(next_char());
     }
     input_file_reader.close();
+    ofs.close();
 }
 
 
@@ -48,4 +52,24 @@ bool Decomressor::add_in_window(char added) {
         return false;
     }
     return true;
+}
+
+Decomressor::~Decomressor() {
+    delete [] buffer;
+}
+
+char Decomressor::next_char() {
+    if (pointer >= BUFFER_SIZE)
+    {
+        BUFFER_SIZE = input_file_reader.readsome(buffer, BUFFER_SIZE);
+        if (BUFFER_SIZE != 0)
+        {
+            pointer = 0;
+        }
+        else {
+            return -1;
+        }
+    }
+    pointer++;
+    return buffer[pointer - 1];
 }

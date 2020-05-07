@@ -8,21 +8,29 @@
 
 #include <deque>
 #include <string>
-#include "Compres_abstract.h"
 
-class Decomressor : public Compres_abstract {
+class Decomressor {
 private:
     std::deque<char> window;
     unsigned int WINDOW_SIZE;
     std::ofstream ofs;
+    std::ifstream input_file_reader;
+    unsigned int pointer;
+    char *buffer;
+    unsigned int BUFFER_SIZE = 20; //todo
 
     bool add_in_window(char added);
 
     unsigned int next_int();
+
+    char next_char();
+
 public:
+    ~Decomressor();
+
     explicit Decomressor();
 
-    void decomress(const std::string& input_file, const char * output_file);
+    void decomress(const std::string& input_file, std::string output_file);
 
 };
 

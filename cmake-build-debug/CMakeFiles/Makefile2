@@ -35,10 +35,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/frak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.6073.20/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/frak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.126/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/frak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.6073.20/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/frak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.126/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -74,12 +74,12 @@ clean: CMakeFiles/compressor.dir/clean
 CMakeFiles/compressor.dir/all:
 	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/depend
 	$(MAKE) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target compressor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target compressor"
 .PHONY : CMakeFiles/compressor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/compressor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/compressor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/frak/CLionProjects/Compressor/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/compressor.dir/rule
