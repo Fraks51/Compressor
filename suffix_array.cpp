@@ -1,5 +1,5 @@
 //
-// Created by frak on 07.03.2020.
+// Created by Mr.Ravil on 07.03.2020.
 //
 
 #include "suffix_array.h"
