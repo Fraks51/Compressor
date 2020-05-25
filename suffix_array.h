@@ -1,5 +1,5 @@
 //
-// Created by on 07.03.2020.
+// Created by Mr.Ravil on 07.03.2020.
 //
 
 #ifndef COMPRESSOR_SUFFIX_ARRAY_H
